@@ -1,0 +1,93 @@
+/* Whatsapp.css */
+
+/* Common styles for all screen sizes */
+body {
+    background-color: #FFFFFF; /* Set body background color to white */
+    margin: 0; /* Remove default body margin */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1100px; /* Updated height */
+    width: 1200px; /* Updated width */
+    border-radius: 10px; 
+    margin: 0 auto; 
+    margin-top: 50px; 
+    box-shadow: 0px 2px 21px 0px rgba(59, 53, 63, 0.12);
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
+.get-id-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #E4A101;
+    color: white;
+}
+
+.get-id-button:hover {
+    background-color: #d28900; /* Darker shade of E4A101 on hover */
+}
+
+
+
+.social-icons a {
+    color: #000;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #E4A101;
+}
+
+.B {
+    color: #E4A101;
+    font-size: 24px;
+}
+
+.A {
+    color: black;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 22px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.paragraph {
+    font-size: 15px;
+    text-align: left;
+    color: #6C6C6C;
+}
+
+.follow {
+    text-align: left;
+    margin-left: 20px;
+    color: #C8C8C8;
+    font-size: 18px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Set container width to 90% of the viewport width */
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        height: auto; /* Allow container height to adjust based on content */
+        margin-top: 20px; /* Reduce top margin for smaller screens */
+    }
+}
