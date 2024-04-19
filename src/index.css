@@ -1,13 +1,215 @@
+/* ========================================= */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.landing {
+background-image: url(../public/img/slider_bg.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.wrapper {
+  background-color: rgba(32, 31, 31, 0.5);
+  height: 100%;
+}
+
+.logo-container {
+  text-align: center;
+  position: relative; 
+}
+
+.img {
+  width: 200px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  box-sizing: border-box;
+  margin-top: 30px;
+  position: relative; 
+}
+
+.word1{
+color:#efece5f5;
+
+text-align: center;
+
+text-transform: uppercase;
+font-size: 60px;
+font-weight: 800;
+line-height: .9;
+margin-bottom: 12px;
+
+
+}
+.word2{
+
+color: #e9a301;
+font-weight: 800;
+line-height: .9;
+margin-bottom: 12px;
+text-align: center;
+font-size: 60px;
+text-transform: uppercase;
+}
+.word3{font-weight: 800;
+  line-height: .9;
+  margin-bottom: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e9a301;
+  font-size: 60px;
+  }
+  .word4{
+    font-weight: 800;
+    line-height: .9;
+    margin-bottom: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #e9a301;
+    }
+    .word5{
+      font-weight: 800;
+      line-height: .9;
+      margin-bottom: 12px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 60px;
+      color: #e9a301;
+      }
+      .word6{font-weight: 800;
+        line-height: .9;
+        margin-bottom: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #e9a301;
+        font-size: 60px;
+        }
+        .word7{font-weight: 800;
+          line-height: .9;
+          margin-bottom: 12px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #e9a301;
+          font-size: 60px;
+          }
+          .word8{font-weight: 800;
+            line-height: .9;
+            margin-bottom: 12px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #e9a301;
+            font-size: 60px;
+            }
+
+
+
+
+
+/* ================================================== */
+/* Whatsapp.css */
+
+/* Common styles for all screen sizes */
+body {
+background-color: #FFFFFF; /* Set body background color to white */
+margin: 0; /* Remove default body margin */
+}
+
+.container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 1100px; 
+width: 1200px; 
+border-radius: 10px; 
+margin: 0 auto; 
+margin-top: 50px; 
+box-shadow: 0px 2px 21px 0px rgba(59, 53, 63, 0.12);
+}
+
+.content {
+text-align: center;
+padding: 50px;
+}
+
+.get-id-button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+background-color: #E4A101;
+color: white;
+}
+
+.get-id-button:hover {
+background-color: #d28900; 
+}
+
+
+
+.fabfa-instagram{
+background-color: #3b5998;
+margin: 0 5px;
+
+text-decoration: none;
+}
+.fabfa-telegram{
+background-color: #55acee;
+margin: 0 5px;
+text-decoration: none;
+}
+.fabfa-whatsapp{
+background-color: #d71e18;
+margin: 0 5px;
+text-decoration: none;
+}
+.social-icons a:hover {
+color:rgb(18, 3, 3);
+text-align: left;
+}
+
+.B {
+color: #E4A101;
+font-size: 22px;
+}
+
+.A {
+color: black;
+font-size: 22px;
+}
+
+h2 {
+font-size: 22px;
+text-align: left;
+margin-left: 20px;
+}
+
+.paragraph {
+font-size: 15px;
+text-align: left;
+color: #6C6C6C;
+}
+
+.follow {
+text-align: left;
+margin-left: 20px;
+color: #C8C8C8;
+font-size: 18px;
+
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+.container {
+    width: 90%; /* Set container width to 90% of the viewport width */
+}
+}
+
+@media (max-width: 576px) {
+.container {
+    height: auto; /* Allow container height to adjust based on content */
+    margin-top: 20px; /* Reduce top margin for smaller screens */
+}
 }

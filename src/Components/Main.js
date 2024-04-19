@@ -1,19 +1,23 @@
-import React from 'react'
-import  './Main.css'
-function Main() {
+import React, { useState } from "react";
+import "./Main.css";
+import "./Animation.css";
+import "./WhatsAppButton.css";
+function Home() {
+  const [openWhatsApp, setOpenWhatsApp] = useState(() => {
+    const url = "https://wa.me";
+
+    return () => {
+      window.open(url, "_blank");
+    };
+  });
+
   return (
-    <div>
-       <div className="landing">
-                    <div className="wrapper">
-                        <div className="d-flex flex-column text-center justify-content-center align-items-center h-100">
-                            <h3 className="display-4">Ultimate Destinations</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem, eaque esse ex exercitationem in iure, modi non quibusdam quidem, quo recusandae! Animi error, et fugiat inventore molestias sapiente sint?</p>
-                        </div>
-                    </div>
-                </div>
-  
-    </div>
-  )
+    <>
+     <div className="Abc">
+      
+     </div>
+    </>
+  );
 }
 
-export default Main
+export default Home;

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Navbar, Container, Nav } from 'react-bootstrap';
 
 function CustomNavbar() {
@@ -11,7 +12,7 @@ function CustomNavbar() {
           <Nav.Link href="#features">Features</Nav.Link>
           <Nav.Link href="#pricing">Pricing</Nav.Link>
         </Nav>
-   
+      
     </Navbar>
   );
 }

@@ -1,0 +1,25 @@
+.container {
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 0 20px;
+    overflow-y: hidden; 
+  }
+  
+  .content {
+    text-align: justify;
+  }
+  
+  h1, h2, h3 {
+    margin-top: 20px; 
+  }
+  
+  p {
+    margin-bottom: 10px; 
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 10px; 
+    }
+  }
+  

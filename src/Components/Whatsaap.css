@@ -11,8 +11,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1100px; /* Updated height */
-    width: 1200px; /* Updated width */
+    height: 1100px; 
+    width: 1200px; 
     border-radius: 10px; 
     margin: 0 auto; 
     margin-top: 50px; 
@@ -34,29 +34,40 @@ body {
 }
 
 .get-id-button:hover {
-    background-color: #d28900; /* Darker shade of E4A101 on hover */
+    background-color: #d28900; 
 }
 
 
 
-.social-icons a {
-    color: #000;
+.fabfa-instagram{
+    background-color: #3b5998;
+    margin: 0 5px;
+    
+    text-decoration: none;
+}
+.fabfa-telegram{
+    background-color: #55acee;
     margin: 0 5px;
     text-decoration: none;
 }
-
+.fabfa-whatsapp{
+    background-color: #d71e18;
+    margin: 0 5px;
+    text-decoration: none;
+}
 .social-icons a:hover {
-    color: #E4A101;
+    color:rgb(18, 3, 3);
+  text-align: left;
 }
 
 .B {
     color: #E4A101;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .A {
     color: black;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 h2 {
@@ -76,6 +87,7 @@ h2 {
     margin-left: 20px;
     color: #C8C8C8;
     font-size: 18px;
+   
 }
 
 /* Media queries for responsiveness */

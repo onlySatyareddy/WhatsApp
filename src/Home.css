@@ -1,0 +1,130 @@
+.background {
+    display: inline-block;
+      justify-content: center; 
+      align-items: center; 
+      background: #e9a301 url("/public/img/btn_overlay.png") no-repeat center;
+      background-size: cover; 
+      text-decoration: none;
+      text-align: center;
+      width: 350px; 
+      height: 60px; 
+      border-radius: 5px;
+      color: #1c1121;
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1;
+      padding: 20px 44px;
+      text-transform: uppercase;
+      white-space: nowrap;
+      position: relative;
+      z-index: 1;
+     
+     
+    }
+    
+    .whatsapp-button {
+      position: absolute;
+      bottom: 10px;
+      font-size: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: transparent; 
+      color:black;
+      padding: 10px 93px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 5;
+      
+    }
+    /* ==================================Animatiuon ============================== */
+    .display-8 {
+        animation: moveFromTop 2s forwards;
+      }
+      
+      @keyframes moveFromTop {
+        0% {
+          transform: translateY(-100%);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      
+      .tlt.fix .word {
+        opacity: 0;
+        animation: fadeInWords 1.5s forwards;
+        animation-delay: calc(1.5s * var(--index));
+      }
+      
+      @keyframes fadeInWords {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+      .bottom-text {
+        animation: moveFromBottom 2s forwards;
+      }
+      
+      @keyframes moveFromBottom {
+        0% {
+          transform: translateY(100%);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      
+      @keyframes fadeInLeft {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      .tlt.fix {
+        display: inline-block;
+      }
+      
+      @keyframes fadeInLeft {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      .tlt.fix {
+        display: inline-block;
+      }
+      
+      .word1,
+      .word2,
+      .word3,
+      .word4,
+      .word5,
+      .word6,
+      .word7,
+      .word8 {
+        display: inline-block;
+        opacity: 0;
+        animation: fadeInLeft 2s forwards;
+        animation-delay: 2.5s;
+      }
+      
